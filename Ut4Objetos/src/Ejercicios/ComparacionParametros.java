@@ -1,0 +1,28 @@
+package Ejercicios;
+
+public class ComparacionParametros {
+    
+    public static void modificarPrimitivo(int numero) {
+        numero = numero * 2;
+        System.out.println("Dentro del método, numero = " + numero);
+    }
+    
+    public static void modificarObjeto(StringBuilder texto) {
+        texto.append(" modificado");
+        System.out.println("Dentro del método, texto = " + texto);
+    }
+    
+    public static void main(String[] args) {
+        int valorPrimitivo = 5;
+        StringBuilder valorObjeto = new StringBuilder("Hola");
+        
+        System.out.println("Antes de llamar al método, valorPrimitivo = " + valorPrimitivo); // 5
+        modificarPrimitivo(valorPrimitivo); // 10
+        System.out.println("Después de llamar al método, valorPrimitivo = " + valorPrimitivo); // 5
+        
+        System.out.println("\nAntes de llamar al método, valorObjeto = " + valorObjeto); // hola
+        modificarObjeto(valorObjeto); // hola modificado
+        System.out.println("Después de llamar al método, valorObjeto = " + valorObjeto); // hola modificado
+    }
+}
+
