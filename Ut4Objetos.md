@@ -25,13 +25,17 @@
 	y métodos sea controlado mediante modificadores de acceso.
 **Principales Beneficios de los Objetos en Java**:
 
-	- Modularidad: Los objetos permiten dividir un programa en partes más pequeñas y manejables. Cada objeto se encarga de su propia lógica y datos.
+	- Modularidad: Los objetos permiten dividir un programa en partes más pequeñas y manejables.
+ 	Cada objeto se encarga de su propia lógica y datos.
 
-	- Reusabilidad: Una vez que una clase está definida, se pueden crear muchos objetos de esa clase, lo que facilita la reutilización del código.
+	- Reusabilidad: Una vez que una clase está definida, se pueden crear muchos objetos de esa clase,
+ 	lo que facilita la reutilización del código.
 
 	- Encapsulamiento: Permite ocultar los detalles internos de la clase, exponiendo solo lo necesario a otras partes del programa.
 	Esto facilita el mantenimiento y la actualización del código.
 
-	- Herencia: Permite crear nuevas clases basadas en clases existentes, lo que fomenta la reutilización de código y la creación de jerarquías de clases.
+	- Herencia: Permite crear nuevas clases basadas en clases existentes,
+ 	lo que fomenta la reutilización de código y la creación de jerarquías de clases.
 
-	- Polimorfismo: Permite que un objeto de una clase se trate como un objeto de una clase base, lo que ayuda a implementar comportamientos flexibles y extensibles.
+	- Polimorfismo: Permite que un objeto de una clase se trate como un objeto de una clase base,
+ 	lo que ayuda a implementar comportamientos flexibles y extensibles.
